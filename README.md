@@ -8,3 +8,7 @@
   - open bertool draw therotical set Eb/No range -10:10 then press plot 
   - then in monte carlo set Eb/No range to be -10:1:10 with step 1 
   - finaly set no. of bite to 1e4 then click run.
+
+# Binary Phase Shift Keying (BPSK)
+## This is also called as 2-phase PSK or Phase Reversal Keying. In this technique, the sine wave carrier takes two phase reversals such as 0° and 180°.
+## BPSK is basically a Double Side Band Suppressed Carrier (DSBSC) modulation scheme, for message being the digital information.
