@@ -16,7 +16,9 @@ BPSK is basically a Double Side Band Suppressed Carrier (DSBSC) modulation schem
 
 - For BPSK Simulation
   - RandomIntegerGeneration:set size = 2
-  
+## Scatter Plot and Performance Diagram 
+![bpsk] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/bpsk/BPSK%20before%20and%20after%20Noise.PNG)
+![bpsk] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/bpsk/BPSK%20performance.png)
  
  # Quadrature Phase Shift Keying (QPSK)
 This is the phase shift keying technique, in which the sine wave carrier takes four phase reversals such as 0°, 90°, 180°, and 270°.
@@ -24,7 +26,11 @@ If this kind of techniques are further extended, PSK can be done by eight or six
 
 - For QPSK Simulation
   - RandomIntegerGeneration:set size = 4
- 
+
+## Scatter Plot and Performance Diagram 
+![qpsk] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/qpsk/QPSK%20before%20and%20after%20Noise.PNG)
+![qpsk] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/qpsk/QPSK%20performance.png)
+
 # Frequency Shift Keying (FSK) 
 This is the digital modulation technique in which the frequency of the carrier signal varies according to the digital signal changes. FSK is a scheme of frequency modulation.
 
@@ -32,6 +38,11 @@ The output of a FSK modulated wave is high in frequency for a binary High input 
 
 - For FSK Simulation
   - RandomIntegerGeneration:set size = 2
+  
+## Scatter Plot and Performance Diagram 
+![fsk] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/fsk/Fsk%20before%20and%20after%20Noise.PNG)
+![fsk] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/fsk/FSK%20performance.png)
+  
  
 # Quadrature Amplitude Modulation (QAM) -16
 This is also antoher modulation scheme but  carry information in amplitude and in phase (only two phases). It uses two carriers sin and cos and recived signal with differnt amplitudes. 
@@ -41,6 +52,10 @@ bits per symbol = 4.
   - RandomIntegerGeneration:set size = 16
   - In modualtor and demodualtor: M-ary number =16
 
+## Scatter Plot and Performance Diagram 
+![qam16] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/qam16/QAM-16%20before%20and%20after%20Noise.PNG)
+![qam16] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/qam16/QAM-16%20performance.png)
+
 
 # Quadrature Amplitude Modulation (QAM) -64
 This is the same as QAM-16 but with bits per symbol = 6.
@@ -48,4 +63,8 @@ This is the same as QAM-16 but with bits per symbol = 6.
 - For QAM-64 Simulation
   - RandomIntegerGeneration:set size = 64
   - In modualtor and demodualtor: M-ary number = 64
+  
+## Scatter Plot and Performance Diagram 
+![qam64] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/qam64/QAM-64%20before%20and%20after%20Noise.PNG)
+![qam64] (https://github.com/ahmed1salama/DigitalCommunication/blob/master/qam64/QAM-64%20performance.png)
  
