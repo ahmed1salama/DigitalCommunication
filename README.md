@@ -15,7 +15,7 @@ This is called as 2-phase PSK or Phase Reversal Keying. In this technique, the s
 BPSK is basically a Double Side Band Suppressed Carrier (DSBSC) modulation scheme, for message being the digital information.
 
 - For BPSK Simulation
- - RandomIntegerGeneration:set size = 2
+  - RandomIntegerGeneration:set size = 2
   
  
  # Quadrature Phase Shift Keying (QPSK)
@@ -23,7 +23,7 @@ This is the phase shift keying technique, in which the sine wave carrier takes f
 If this kind of techniques are further extended, PSK can be done by eight or sixteen values also, depending upon the requirement.
 
 - For QPSK Simulation
- - RandomIntegerGeneration:set size = 4
+  - RandomIntegerGeneration:set size = 4
  
 # Frequency Shift Keying (FSK) 
 This is the digital modulation technique in which the frequency of the carrier signal varies according to the digital signal changes. FSK is a scheme of frequency modulation.
@@ -31,21 +31,21 @@ This is the digital modulation technique in which the frequency of the carrier s
 The output of a FSK modulated wave is high in frequency for a binary High input and is low in frequency for a binary Low input. The binary 1s and 0s are called Mark and Space frequencies. 
 
 - For FSK Simulation
- - RandomIntegerGeneration:set size = 2
+  - RandomIntegerGeneration:set size = 2
  
 # Quadrature Amplitude Modulation (QAM) -16
 This is also antoher modulation scheme but  carry information in amplitude and in phase (only two phases). It uses two carriers sin and cos and recived signal with differnt amplitudes. 
 bits per symbol = 4.
 
 - For QAM-16 Simulation
- - RandomIntegerGeneration:set size = 16
- - In modualtor and demodualtor: M-ary number =16
+  - RandomIntegerGeneration:set size = 16
+  - In modualtor and demodualtor: M-ary number =16
 
 
 # Quadrature Amplitude Modulation (QAM) -64
 This is the same as QAM-16 but with bits per symbol = 6.
 
 - For QAM-64 Simulation
- - RandomIntegerGeneration:set size = 64
- - In modualtor and demodualtor: M-ary number = 64
+  - RandomIntegerGeneration:set size = 64
+  - In modualtor and demodualtor: M-ary number = 64
  
