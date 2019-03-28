@@ -68,3 +68,4 @@ This is the same as QAM-16 but with bits per symbol = 6.
 ![qam64](https://github.com/ahmed1salama/DigitalCommunication/blob/master/qam64/QAM-64%20before%20and%20after%20Noise.PNG)
 ![qam64](https://github.com/ahmed1salama/DigitalCommunication/blob/master/qam64/QAM-64%20performance.png)
  
+# Note : for rasied cosin ouput i have put the outputs and the diagram in a separate folder called raised cosin but i found that the ber became worse rather than becoming better after raised cosin so i didn't put it in the readme.md
